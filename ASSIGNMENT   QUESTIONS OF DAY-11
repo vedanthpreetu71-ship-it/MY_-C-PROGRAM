@@ -1,0 +1,46 @@
+//1. Write a C program to print your name, age, and location using printf().
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    printf("Name VEDANTH KS");
+    printf ("age 18");
+    printf ("location Mallasandra");
+
+    return 0;
+}
+
+//2. Write a C program that asks the user to enter two integers and prints their sum.
+
+
+#include <stdio.h>
+int main() {
+int num1,num2,sum;
+    printf("enter the value of num1\n");
+    scanf("%d\n",&num1);
+    printf("enter the value of num2\n");
+    scanf("%d\n",&num2);
+    sum=num1+num2;
+    printf("sum=%d\n",sum);
+ return 0;
+}
+
+//3. What is the purpose of the main() function in a C program?
+⭐ The Entry Point of the Program
+⭐ Responsible for Returning an Exit Status
+⭐ Can Receive Command-Line Arguments
+
+//4. Identify the error in this C code and correct it:
+#include <stdio.h>
+int main {
+ printf("Hello World");
+ return 0;
+}
+❌ Error
+The main function is missing parentheses.
+It should be written as int main() instead of int main.
+
+
+
+
+
